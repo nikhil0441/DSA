@@ -20,8 +20,18 @@ int main(){
         cout<<p.first<<" "<<p.second<<endl;
     }
     cout<<endl;                                  //p=p+1 are not allowed in map because map used pointer
-    for(auto p=student.begin();p!=student.end();p++){
-        cout<<p->first<<" "<<p->second<<endl;
-    }
+    // for(auto p=student.begin();p!=student.end();p++){
+    //     cout<<p->first<<" "<<p->second<<endl;
+    // }
 
+    student.insert({10,"Kunal"});
+    student.insert({20, "Giri"});
+    student.insert({5, "Karna"});
+    student[40]="ajay";
+    student[132];
+    for (auto p : student)
+    {
+        cout << p.first << " " << p.second << endl;
+    }
+    cout << endl;
 }
