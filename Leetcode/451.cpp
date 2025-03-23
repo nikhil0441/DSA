@@ -18,3 +18,6 @@ public:
         }
     }
 };
+int main(){
+    
+}
