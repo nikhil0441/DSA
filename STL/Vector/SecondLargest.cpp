@@ -46,5 +46,6 @@ int main(){
     else{
         cout << firstLargest << " " << secondLargest;
     }
+    new //aaj ka din
     
 }
