@@ -18,4 +18,4 @@ public:
         }
         return maxi < 0 ? 0 : maxi;
     }
-};
+};E
